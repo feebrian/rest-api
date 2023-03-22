@@ -1,0 +1,56 @@
+[
+  {
+    "Sarapan-Pagi" : [
+      "Egg and Cheese Muffin",
+      "Chicken Muffin",
+      "Sausage Muffin",
+      "Egg Muffin",
+      "Chicken Muffin with Egg" 
+    ]
+  },
+  {
+    "Daging Sapi" : [
+      "Five Cheese Steak Burger",
+      "Beef Prosperity Burger",
+      "Big Mac",
+      "Triple Cheeseburger",
+      "Double Cheeseburger"
+    ]
+  },
+  {
+    "Ayam" : [
+      "Korean Soy Garlic Wings - A la Carte",
+      "PaNas Wings Korean Soy Garlic",
+      "PaNas Hebat Korean Soy Garlic Wings",
+      "Ayam Krispy McDonald's",
+      "Ayam Spicy McDonald's"
+    ]
+  },
+  {
+    "Ikan" : [
+      "Fish Prosperity Burger",
+      "Fish Snack Wrap",
+      "Fish Fillet Burger",
+      "Honey Garlic Fish Rice McD",
+      "Rica-rica Fish Rice McD"
+    ]
+  },
+  {
+    "Minuman" : [
+      "Coca Cola",
+      "Sprite",
+      "Iced Coffee",
+      "Fanta",
+      "Iced Coffee Caramel Macchiato Jelly Float"
+    ]
+  },
+  {
+    "Makanan-Penutup" : [
+      "Choco Top",
+      "Ice Cream Cone",
+      "McFlurry Choco",
+      "Apple Pie",
+      "Strawberry Sundae"
+    ]
+  }
+]

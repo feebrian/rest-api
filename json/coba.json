@@ -1,0 +1,30 @@
+[
+  {
+   "nama" : "adam febrian",
+  "umur" : 17,
+  "nis" : "16028",
+  "lulus" : false,
+  "hobby" : [
+    "coding",
+    "gaming"
+  ],
+  "pembimbing" : [
+    "pak haris",
+    "bu reny"
+  ]
+  },
+    {
+   "nama" : "adam febrian",
+  "umur" : 17,
+  "nis" : "16028",
+  "lulus" : false,
+  "hobby" : [
+    "coding",
+    "gaming"
+  ],
+  "pembimbing" : [
+    "pak haris",
+    "bu reny"
+  ]
+  }
+]
