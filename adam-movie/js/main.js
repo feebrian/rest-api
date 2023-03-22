@@ -67,19 +67,29 @@ $('#movie-list').on('click', '.movie-details', function () {
     success : function (result){
       if(result.Response === "True"){
 
+        $('#modal-label').html(result.Title);
+
         $('.modal-body').html(`
         <div class="row">
           <div class="col-md-4">
-            <img src="`+ result.Poster +`" class="img-fluid" alt="`+ result. +`">
+            <img src="`+ result.Poster +`" class="img-fluid" alt="`+ result.Title +`">
           </div>
 
           <div class="col-md-8">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-            <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item">And a fifth one</li>
+          <li class="list-group-item">`+ result.Plot +`</li>
+            <li class="list-group-item">Title : `+ result.Title +`</li>
+            <li class="list-group-item">Year : `+ result.Year +`</li>
+            <li class="list-group-item">Released : `+ result.Released +`</li>
+            <li class="list-group-item">Duration : `+ result.Runtime +`</li>
+            <li class="list-group-item">Genre : `+ result.Genre +`</li>
+            <li class="list-group-item">Genre : `+ result.Type +`</li>
+            <li class="list-group-item">Director : `+ result.Director +`</li>
+            <li class="list-group-item">Writer : `+ result.Writer +`</li>
+            <li class="list-group-item">Actors : `+ result.Actors +`</li>
+            <li class="list-group-item">Ratings : `+ result.imdbRating +`</li>
+            <li class="list-group-item">Country : `+ result.Country +`</li>
+            <li class="list-group-item">Awards : `+ result.Awards +`</li>
           </ul>
           </div>
         </div>
