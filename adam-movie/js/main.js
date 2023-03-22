@@ -70,7 +70,7 @@ $('#movie-list').on('click', '.movie-details', function () {
         $('.modal-body').html(`
         <div class="row">
           <div class="col-md-4">
-            <img src="`+ result.Poster +`" class="img-fluid" alt="...">
+            <img src="`+ result.Poster +`" class="img-fluid" alt="`+ result. +`">
           </div>
 
           <div class="col-md-8">
